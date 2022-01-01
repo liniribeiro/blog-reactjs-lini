@@ -182,7 +182,7 @@ textarea-webkit-scrollbar {
 .profile_div {
   /* display: none; */
   position: fixed;
-  padding: 0.4rem;
+  padding: 1rem;
   width: 5%;
   bottom: 2rem;
   right: 0;

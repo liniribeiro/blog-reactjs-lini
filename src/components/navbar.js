@@ -22,10 +22,7 @@ const ChatbotDropDown = () => {
          <LinkContainer to="/kiki-bot">
             <NavDropdown.Item className="navbar-dropdown-item">Kiki</NavDropdown.Item>
         </LinkContainer>
-        <NavDropdown.Divider />
-        <LinkContainer to="/joke-bot">
-            <NavDropdown.Item  className="navbar-dropdown-item">Joke bot</NavDropdown.Item>
-        </LinkContainer>
+        {/* <NavDropdown.Divider /> */}
       </NavDropdown>
     )
 }
@@ -40,9 +37,9 @@ const About  = () => {
 
 const Blog  = () => {
     return (
-        <LinkContainer to="/blog">
-        <Nav.Link>Blog</Nav.Link>
-        </LinkContainer>
+        <a className="nav-a nav-link"  target="_blank"  rel="noreferrer" href="https://liniribeiro.github.io/">
+        Blog
+        </a>
     )
 }
 

@@ -11,7 +11,6 @@ const Page = (props) => {
                 <hr className="hr-small"></hr>
                 <span className="post-subheading">{short_description}</span>
                 <img className={class_image} src={header_img} alt=''></img>
-
                 
             </div>
         );

@@ -47,7 +47,7 @@ const LinkedinIcon = () => {
 const Footer = (props) => {
 
         return (
-            <footer>
+            <footer className="footer-fixed">
                 <div>
                 <ul className="list-inline text-center footer-links">
                     <EmailIcon />

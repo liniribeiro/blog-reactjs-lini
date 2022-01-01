@@ -1,8 +1,19 @@
 import React, {Component} from 'react'
+import Page from '../components/page';
+import headerImage from '../assets/img/chatbot/kiki-bot.png'
 
-class Kiki extends Component { 
+class Kiki extends Component {
     render(){
-        return (<h1> Kiki</h1>);
+        return (
+            <div className='container-md main-container'>
+            <Page 
+            title='KIKI' 
+            short_description="O primeiro chatbot da Alini"
+            header_img={headerImage}
+            class_image='page-img-small'
+            />  
+        </div>        
+        )
     }
 
 };

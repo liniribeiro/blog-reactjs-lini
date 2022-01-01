@@ -2,8 +2,14 @@
   "name": "code-sandbox-examples",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "17.2.0"
+ },
   "dependencies": {
     "bootstrap": "^4.6.0",
+    "express": "^4.17.2",
+    "express-favicon": "^2.0.1",
+    "path": "^0.12.7",
     "react": "^17.0.1",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.1",
@@ -13,7 +19,7 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "node server.js --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
