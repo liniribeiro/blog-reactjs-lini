@@ -8,3 +8,4 @@ Start Aplicatiion: yarn start
 Heroku:
 
 
+heroku open

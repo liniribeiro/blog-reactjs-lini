@@ -1,5 +1,5 @@
+node_modules
 public/*
 build/*
 build/static/css/*.map
 build/static/js/*.map
-node_modules
